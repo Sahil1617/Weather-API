@@ -1,0 +1,7 @@
+.mainBox {
+    background: url("background1.jpg"); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Ensures the component fills the viewport */
+}

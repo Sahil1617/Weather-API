@@ -41,7 +41,7 @@ function SearchBox({updateInfo}) {
 
   return (
     <div className='SearchBox'>
-        <h3>Search for Weather</h3>
+        <h3 style={{color:"white", fontFamily: "cursive"}}>Search for Weather</h3>
         <form onSubmit={handleSubmit}>
             <TextField id="city" label="City" variant="outlined" required value={city} onChange={handleChange}/>
             <br/><br/>
